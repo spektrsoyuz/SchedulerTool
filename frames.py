@@ -5,6 +5,7 @@ Author: Seth Christie
 Created: 2024-08-17
 Version: 1.0
 """
+import json
 from pathlib import Path
 
 from PyQt6.QtGui import QFont
@@ -14,7 +15,7 @@ from PyQt6.QtWidgets import QLabel, QGridLayout, QLineEdit, QPushButton, QSpacer
 # ----------------------------------------------------- classes --------------------------------------------------------
 
 class ScheduleFrame(QGroupBox):
-    def __init__(self, parent, title="Schedule Options"):
+    def __init__(self, parent, title="Scheduling Tools"):
         super().__init__(parent)
         self.layout = QGridLayout(self)
         self.layout.setContentsMargins(10, 20, 10, 20)
@@ -71,13 +72,24 @@ class ScheduleFrame(QGroupBox):
         self.validate_label.setFont(self.font)
         self.layout.addWidget(self.validate_label, 4, 1, 1, 2)
 
+        # import button
+        self.import_button = QPushButton(parent=self, text="Import")
+        self.import_button.setFont(self.font)
+        self.import_button.setFixedWidth(90)
+        self.layout.addWidget(self.import_button, 5, 0)
+
+        # import status label
+        self.import_label = QLabel(parent=self, text="")
+        self.import_label.setFont(self.font)
+        self.layout.addWidget(self.import_label, 5, 1, 1, 2)
+
     def clear_labels(self):
         self.export_label.setText("")
         self.validate_label.setText("")
 
 
-class DegreeworksFrame(QGroupBox):
-    def __init__(self, parent, title="DegreeWorks Options"):
+class BuilderFrame(QGroupBox):
+    def __init__(self, parent, title="Schedule Builder"):
         super().__init__(parent)
         self.layout = QGridLayout(self)
         self.layout.setContentsMargins(10, 20, 10, 20)
@@ -120,7 +132,7 @@ class DegreeworksFrame(QGroupBox):
 
     def browse_file(self):
         filename, _ = QFileDialog.getOpenFileName(
-            self, "Select PDF File", "", "PDF files (*.pdf)"
+            self, "Select File", "", "All Files (*)"
         )
         if filename:
             self.file_input.setText(filename)
@@ -144,6 +156,10 @@ class DegreeworksFrame(QGroupBox):
             self.create_label.setText("File " + displayed_name + " was not found.")
             return
 
+        with open("D:/PyCharm/SchedulerTool/data/degree-requirements.json", 'r') as degree_reqs:
+            degree_reqs = json.load(degree_reqs)
+        print(degree_reqs)
+
         # TODO create schedule functionality
 
         self.create_label.setStyleSheet("color: rgb(119, 221, 119);")
@@ -151,3 +167,13 @@ class DegreeworksFrame(QGroupBox):
 
     def clear_labels(self):
         self.create_label.setText("")
+
+
+class CourseFrame(QGroupBox):
+    def __init__(self, parent, title="Course Tools"):
+        super().__init__(parent)
+        self.layout = QGridLayout(self)
+        self.layout.setContentsMargins(10, 20, 10, 20)
+        self.font = QFont('Helvetica', 12)
+        self.setTitle(title)
+        self.setFont(QFont('Helvetica', 10))

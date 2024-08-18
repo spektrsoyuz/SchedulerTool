@@ -8,7 +8,7 @@ Version: 1.0
 import sys
 
 from PyQt6.QtCore import Qt
-from PyQt6.QtWidgets import QApplication, QWidget, QGridLayout, QLabel, QVBoxLayout, QSpacerItem
+from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QSpacerItem
 from PyQt6.QtGui import QFont
 import qdarktheme
 
@@ -36,11 +36,15 @@ class Application(QWidget):
         # add frames to layout
         self.schedule_frame = frames.ScheduleFrame(self)
         self.layout.addWidget(self.schedule_frame)
-
         self.layout.addItem(QSpacerItem(0, 20))
 
-        self.degreeworks_frame = frames.DegreeworksFrame(self)
+        self.degreeworks_frame = frames.BuilderFrame(self)
         self.layout.addWidget(self.degreeworks_frame)
+        self.layout.addItem(QSpacerItem(0, 20))
+
+        self.course_frame = frames.CourseFrame(self)
+        self.layout.addWidget(self.course_frame)
+        self.layout.addItem(QSpacerItem(0, 20))
 
         self.layout.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignCenter)  # set alignment of layout
         self.setLayout(self.layout)  # set layout of widget

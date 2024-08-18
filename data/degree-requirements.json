@@ -1,0 +1,904 @@
+{
+  "CHME": [
+    [
+      "CILE-101"
+    ],
+    [
+      "COMM-101"
+    ],
+    [
+      "ECON-201"
+    ],
+    [
+      "LA-201"
+    ],
+    [
+      "LA-489"
+    ],
+    [
+      "CHEM-137/136",
+      "CHEM-135/136"
+    ],
+    [
+      "CHEM-237/238"
+    ],
+    [
+      "CHEM-345/346"
+    ],
+    [
+      "CHEM-347"
+    ],
+    [
+      "MATH-101",
+      "MATH-101X",
+      "MATH-101H"
+    ],
+    [
+      "MATH-102",
+      "MATH-102X",
+      "MATH-102H"
+    ],
+    [
+      "MATH-203",
+      "MATH-203X",
+      "MATH-203H"
+    ],
+    [
+      "MATH-204",
+      "MATH-204H"
+    ],
+    [
+      "MATH-258"
+    ],
+    [
+      "PHYS-114/115"
+    ],
+    [
+      "PHYS-224/225"
+    ],
+    [
+      "CHME-100"
+    ],
+    [
+      "CHME-200"
+    ],
+    [
+      "CHME-210"
+    ],
+    [
+      "CHME-225"
+    ],
+    [
+      "CHME-310"
+    ],
+    [
+      "CHME-325"
+    ],
+    [
+      "CHME-330"
+    ],
+    [
+      "CHME-350"
+    ],
+    [
+      "CHME-360"
+    ],
+    [
+      "CHME-425"
+    ],
+    [
+      "CHME-430"
+    ],
+    [
+      "CHME-440"
+    ],
+    [
+      "CHME-480"
+    ],
+    [
+      "EE-212/MECH-231L"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Advanced Chemistry Elective and Lab"
+    ],
+    [
+      "CHME Elective"
+    ],
+    [
+      "CHME Technical Elective"
+    ],
+    [
+      "CHME Technical Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ]
+  ],
+  "CE": [
+    [
+      "CILE-101"
+    ],
+    [
+      "COMM_101"
+    ],
+    [
+      "ECON-201"
+    ],
+    [
+      "LA-201"
+    ],
+    [
+      "LA-489"
+    ],
+    [
+      "CS-211"
+    ],
+    [
+      "MATH-101",
+      "MATH-101X",
+      "MATH-101H"
+    ],
+    [
+      "MATH-102",
+      "MATH-102X",
+      "MATH-102H"
+    ],
+    [
+      "MATH-203",
+      "MATH-203X",
+      "MATH-203H"
+    ],
+    [
+      "MATH-204",
+      "MATH-204H"
+    ],
+    [
+      "MATH-258"
+    ],
+    [
+      "PHYS-114/115"
+    ],
+    [
+      "PHYS-224/225"
+    ],
+    [
+      "CE-210"
+    ],
+    [
+      "CE-320"
+    ],
+    [
+      "CE-420"
+    ],
+    [
+      "CE-422"
+    ],
+    [
+      "CE-426"
+    ],
+    [
+      "CE-480"
+    ],
+    [
+      "CE-490"
+    ],
+    [
+      "ECE-101"
+    ],
+    [
+      "EE-210/211"
+    ],
+    [
+      "EE-320/321"
+    ],
+    [
+      "IME-100"
+    ],
+    [
+      "CS-101"
+    ],
+    [
+      "CS-102"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "CE Technical Elective"
+    ],
+    [
+      "CE Technical Elective"
+    ],
+    [
+      "Math Elective",
+      "Science Elective"
+    ],
+    [
+      "Math Elective",
+      "Science Elective"
+    ],
+    [
+      "CE Elective"
+    ],
+    [
+      "CE Elective"
+    ],
+    [
+      "EE Elective"
+    ],
+    [
+      "CS Elective"
+    ]
+  ],
+  "EE": [
+    [
+      "CILE-101"
+    ],
+    [
+      "COMM-101"
+    ],
+    [
+      "ECON-201"
+    ],
+    [
+      "LA-201"
+    ],
+    [
+      "LA-489"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "CHEM-135/136"
+    ],
+    [
+      "MATH-101",
+      "MATH-101X",
+      "MATH-101H"
+    ],
+    [
+      "MATH-102",
+      "MATH-102X",
+      "MATH-102H"
+    ],
+    [
+      "MATH-203",
+      "MATH-203X",
+      "MATH-203H"
+    ],
+    [
+      "MATH-204",
+      "MATH-204H"
+    ],
+    [
+      "MATH-258"
+    ],
+    [
+      "MATH-307"
+    ],
+    [
+      "PHYS-114/115"
+    ],
+    [
+      "PHYS-224/225"
+    ],
+    [
+      "Math Elective",
+      "Science Elective"
+    ],
+    [
+      "CE-210"
+    ],
+    [
+      "CE-320"
+    ],
+    [
+      "ECE-101"
+    ],
+    [
+      "EE-210/211"
+    ],
+    [
+      "EE-240"
+    ],
+    [
+      "EE-310"
+    ],
+    [
+      "EE-320/321"
+    ],
+    [
+      "EE-336"
+    ],
+    [
+      "EE-338"
+    ],
+    [
+      "EE-432"
+    ],
+    [
+      "EE-490"
+    ],
+    [
+      "IME-100"
+    ],
+    [
+      "EE Elective"
+    ],
+    [
+      "EE Elective"
+    ],
+    [
+      "EE Elective 400+"
+    ],
+    [
+      "EE Elective",
+      "CE Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "EE Technical Elective"
+    ],
+    [
+      "EE Technical Elective"
+    ],
+    [
+      "EE Technical Elective"
+    ]
+  ],
+  "ENGR": [
+    [
+      "CILE-101"
+    ],
+    [
+      "COMM-101"
+    ],
+    [
+      "ECON-201"
+    ],
+    [
+      "LA-201"
+    ],
+    [
+      "LA-489"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "MATH-101",
+      "MATH-101X",
+      "MATH-101H"
+    ],
+    [
+      "MATH-102",
+      "MATH-102X",
+      "MATH-102H"
+    ],
+    [
+      "MATH-203",
+      "MATH-203X",
+      "MATH-203H"
+    ],
+    [
+      "MATH-258"
+    ],
+    [
+      "CHEM-135/136",
+      "CHEM-137/136"
+    ],
+    [
+      "PHYS-114/115"
+    ],
+    [
+      "PHYS-224/225"
+    ],
+    [
+      "Math Elective",
+      "Science Elective"
+    ],
+    [
+      "IME-100"
+    ],
+    [
+      "ECE-100"
+    ],
+    [
+      "IME-200"
+    ],
+    [
+      "IME-351"
+    ],
+    [
+      "ECE-101",
+      "CS-101"
+    ],
+    [
+      "EE-210/211"
+    ],
+    [
+      "MECH-210"
+    ],
+    [
+      "MECH-310"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Concentration Course 1"
+    ],
+    [
+      "Concentration Course 2"
+    ],
+    [
+      "Concentration Course 3"
+    ],
+    [
+      "Concentration Course 4"
+    ],
+    [
+      "Concentration Course 5"
+    ],
+    [
+      "Concentration Course 6"
+    ],
+    [
+      "Concentration Course 7"
+    ],
+    [
+      "Concentration Course 8"
+    ],
+    [
+      "Concentration Course 9"
+    ],
+    [
+      "Concentration Course 10"
+    ],
+    [
+      "Concentration Course 11"
+    ],
+    [
+      "Concentration Course 12"
+    ],
+    [
+      "ENGR-490"
+    ]
+  ],
+  "IE": [
+    [
+      "CILE-101"
+    ],
+    [
+      "COMM-101"
+    ],
+    [
+      "ECON-201"
+    ],
+    [
+      "LA-201"
+    ],
+    [
+      "LA-489"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "CHEM-135/136"
+    ],
+    [
+      "MATH-101",
+      "MATH-101X",
+      "MATH-101H"
+    ],
+    [
+      "MATH-102",
+      "MATH-102X",
+      "MATH-102H"
+    ],
+    [
+      "MATH-203",
+      "MATH-203X",
+      "MATH-203H"
+    ],
+    [
+      "MATH-204",
+      "MATH-307"
+    ],
+    [
+      "MATH-258"
+    ],
+    [
+      "MATH-332"
+    ],
+    [
+      "PHYS-114/115"
+    ],
+    [
+      "PHYS-224/225"
+    ],
+    [
+      "Science Elective",
+      "Math Elective"
+    ],
+    [
+      "IME-100"
+    ],
+    [
+      "IME-200"
+    ],
+    [
+      "IME-211"
+    ],
+    [
+      "IME-300"
+    ],
+    [
+      "IME-321"
+    ],
+    [
+      "IME-351"
+    ],
+    [
+      "IME-361"
+    ],
+    [
+      "IME-422"
+    ],
+    [
+      "IME-452"
+    ],
+    [
+      "IME-453"
+    ],
+    [
+      "IME-454"
+    ],
+    [
+      "MECH-210"
+    ],
+    [
+      "IME-462",
+      "IME-463",
+      "IME-465"
+    ],
+    [
+      "IME-403",
+      "IME-408",
+      "IME-412"
+    ],
+    [
+      "IME-471",
+      "IME-473",
+      "IME-476"
+    ],
+    [
+      "IME Elective"
+    ],
+    [
+      "IME Elective"
+    ],
+    [
+      "IME Technical Elective"
+    ],
+    [
+      "IME Technical Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ]
+  ],
+  "ME": [
+    [
+      "CILE-101"
+    ],
+    [
+      "COMM-101"
+    ],
+    [
+      "ECON-201"
+    ],
+    [
+      "LA-201"
+    ],
+    [
+      "LA-489"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "CHEM-135/136"
+    ],
+    [
+      "MATH-101",
+      "MATH-101X",
+      "MATH-101H"
+    ],
+    [
+      "MATH-102",
+      "MATH-102X",
+      "MATH-102H"
+    ],
+    [
+      "MATH-203",
+      "MATH-203X",
+      "MATH-203H"
+    ],
+    [
+      "MATH-204",
+      "MATH-204H"
+    ],
+    [
+      "MATH-258"
+    ],
+    [
+      "MATH-305"
+    ],
+    [
+      "PHYS-114/115"
+    ],
+    [
+      "PHYS-224/225"
+    ],
+    [
+      "Math Elective",
+      "Science Elective"
+    ],
+    [
+      "IME-100"
+    ],
+    [
+      "MECH-100",
+      "MECH-111"
+    ],
+    [
+      "MECH-210"
+    ],
+    [
+      "MECH-210"
+    ],
+    [
+      "MECH-211"
+    ],
+    [
+      "MECH-212"
+    ],
+    [
+      "MECH-300"
+    ],
+    [
+      "MECH-307"
+    ],
+    [
+      "MECH-311"
+    ],
+    [
+      "MECH-312"
+    ],
+    [
+      "MECH-320/321"
+    ],
+    [
+      "MECH-322/322"
+    ],
+    [
+      "MECH-330/331"
+    ],
+    [
+      "MECH-420"
+    ],
+    [
+      "MECH-430/431"
+    ],
+    [
+      "MECH-493"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "ME Elective"
+    ],
+    [
+      "ME Elective"
+    ],
+    [
+      "MECH-495"
+    ]
+  ],
+  "CS": [
+    [
+      "CILE-101"
+    ],
+    [
+      "COMM_101"
+    ],
+    [
+      "ECON-201"
+    ],
+    [
+      "LA-201"
+    ],
+    [
+      "LA-489"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Humanities Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Social Science Elective"
+    ],
+    [
+      "Science Elective"
+    ],
+    [
+      "Science Elective"
+    ],
+    [
+      "CS-101"
+    ],
+    [
+      "CS-102"
+    ],
+    [
+      "CS-203"
+    ],
+    [
+      "CS-211"
+    ],
+    [
+      "CS-231"
+    ],
+    [
+      "CS-300"
+    ],
+    [
+      "CS-312"
+    ],
+    [
+      "CS-351"
+    ],
+    [
+      "CS-451"
+    ],
+    [
+      "CS-471"
+    ],
+    [
+      "CS Elective"
+    ],
+    [
+      "CS Elective"
+    ],
+    [
+      "CS Elective"
+    ],
+    [
+      "CS Elective"
+    ],
+    [
+      "CE-201"
+    ],
+    [
+      "CE-320"
+    ],
+    [
+      "MATH-101",
+      "MATH-101X",
+      "MATH-101H"
+    ],
+    [
+      "MATH-102",
+      "MATH-102X",
+      "MATH-102H"
+    ],
+    [
+      "Math Elective"
+    ],
+    [
+      "Math Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ],
+    [
+      "Free Elective"
+    ]
+  ],
+  "CE-CS": []
+}
