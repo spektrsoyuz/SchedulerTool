@@ -1,0 +1,67 @@
+{
+  "Name": "CS",
+  "Courses": {
+    "0": [
+      "COMM-101",
+      "MATH-100",
+      "ECON-201",
+      "CILE-101",
+      "IME-100"
+    ],
+    "1": [
+      "LA-201",
+      "MATH-101X",
+      "",
+      "CS-101",
+      "ECE-101"
+    ],
+    "2": [
+      "",
+      "MATH-102X",
+      "CS-211",
+      "CS-102",
+      "CE-210"
+    ],
+    "3": [
+      "",
+      "MATH-258",
+      "CS-391",
+      "CS-471",
+      "CS-231"
+    ],
+    "4": [
+      "ECON-354",
+      "MATH-391",
+      "CE-498",
+      "CS-203",
+      "CE-320"
+    ],
+    "5": [
+      "LA-489",
+      "ECON-352",
+      "",
+      "CS-451",
+      "CS-300"
+    ],
+    "6": [
+      "Advanced Elective",
+      "PHYS-114/115",
+      "",
+      "CS Elective",
+      "CS-351"
+    ],
+    "7": [
+      "Advanced Elective",
+      "Free Elective",
+      "",
+      "CS Elective",
+      "CS-312"
+    ],
+    "8": []
+  },
+  "Transfer": [
+    "CHEM-135/136",
+    "Free Elective"
+  ],
+  "External": []
+}

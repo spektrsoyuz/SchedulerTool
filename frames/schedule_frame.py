@@ -86,6 +86,12 @@ class ScheduleFrame(AbstractFrame):
 
     def export(self):
         schedule = utils.schedule_request(self.url_input.text(), self.sheet_input.text())
+
+        if schedule == -1:
+            self.status_label.setStyleSheet("color: rgb(255, 105, 97);")
+            self.status_label.setText("Please provide a name.")
+            return
+
         utils.save_schedule_to_file(schedule)
         self.status_label.setStyleSheet("color: rgb(119, 221, 119);")
         self.status_label.setText(f"Saved Schedule to exports/{schedule["Name"]}.json")
