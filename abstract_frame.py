@@ -14,6 +14,6 @@ class AbstractFrame(QGroupBox):
         super().__init__()
         self.layout = QGridLayout(self)
         self.layout.setContentsMargins(10, 20, 10, 20)
-        self.font = QFont('Helvetica', 12)
+        self.font = QFont('Helvetica', 11)
         self.setTitle(title)
         self.setFont(QFont('Helvetica', 10))

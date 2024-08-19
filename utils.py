@@ -10,6 +10,7 @@ import os
 import time
 
 import requests
+from bs4 import BeautifulSoup
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -111,3 +112,17 @@ def save_schedule_to_file(schedule):
     filename = f"exports/{schedule["Name"]}.json"
     with open(filename, 'w') as f:
         json.dump(schedule, f, indent=2)
+
+
+def save_courses_to_file(course_list):
+    """Saves the courses dict to a JSON file."""
+    filename = f"data/courses.json"
+    with open(filename, 'w') as f:
+        json.dump(course_list, f, indent=2)
+
+
+def strip_html(html_text):
+    """Strips HTML code from a String."""
+    soup = BeautifulSoup(html_text, 'html.parser')
+    plain_text = soup.get_text()
+    return plain_text

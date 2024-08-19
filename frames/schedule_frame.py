@@ -19,17 +19,17 @@ class ScheduleFrame(AbstractFrame):
         super().__init__(parent, title)
         row = 0
 
-        # url label
-        self.url_label = QLabel(parent=self, text="Schedule URL: ")
-        self.url_label.setFont(self.font)
-        self.layout.addWidget(self.url_label, row, 0)
+        # id label
+        self.id_label = QLabel(parent=self, text="Spreadsheet Id: ")
+        self.id_label.setFont(self.font)
+        self.layout.addWidget(self.id_label, row, 0)
 
-        # url input
-        self.url_input = QLineEdit(parent=self)
-        self.url_input.setFont(self.font)
-        self.url_input.setText("https://docs.google.com/spreadsheets/")
-        self.url_input.textEdited.connect(self.clear_status)
-        self.layout.addWidget(self.url_input, row, 1)
+        # id input
+        self.id_input = QLineEdit(parent=self)
+        self.id_input.setFont(self.font)
+        self.id_input.setText("")
+        self.id_input.textEdited.connect(self.clear_status)
+        self.layout.addWidget(self.id_input, row, 1)
         row += 1
 
         # sheet name label
@@ -85,7 +85,7 @@ class ScheduleFrame(AbstractFrame):
         self.status_label.setText("")
 
     def export(self):
-        schedule = utils.schedule_request(self.url_input.text(), self.sheet_input.text())
+        schedule = utils.schedule_request(self.id_input.text(), self.sheet_input.text())
 
         if schedule == -1:
             self.status_label.setStyleSheet("color: rgb(255, 105, 97);")
