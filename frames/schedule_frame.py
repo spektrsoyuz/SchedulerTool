@@ -8,6 +8,7 @@ Version: 1.0
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QLabel, QLineEdit, QPushButton, QHBoxLayout, QSpacerItem
 
+import utils
 from abstract_frame import AbstractFrame
 
 
@@ -54,6 +55,7 @@ class ScheduleFrame(AbstractFrame):
         self.export_button = QPushButton(parent=self, text="Export")
         self.export_button.setFont(self.font)
         self.export_button.setFixedWidth(90)
+        self.export_button.clicked.connect(self.export)
         self.button_layout.addWidget(self.export_button)
 
         # validate button
@@ -81,3 +83,9 @@ class ScheduleFrame(AbstractFrame):
     def clear_status(self):
         """Clears the status label"""
         self.status_label.setText("")
+
+    def export(self):
+        schedule = utils.schedule_request(self.url_input.text(), self.sheet_input.text())
+        utils.save_schedule_to_file(schedule)
+        self.status_label.setStyleSheet("color: rgb(119, 221, 119);")
+        self.status_label.setText(f"Saved Schedule to exports/{schedule["Name"]}.json")

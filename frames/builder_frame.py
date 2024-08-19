@@ -135,7 +135,7 @@ class BuilderFrame(AbstractFrame):
         # TODO create schedule functionality
 
         self.status_label.setStyleSheet("color: rgb(119, 221, 119);")
-        self.status_label.setText("Schedule created!")
+        self.status_label.setText("Schedule created")
 
     def update_concentrations(self):
         """Updates the concentration dropdown based on the selected major."""
