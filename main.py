@@ -12,7 +12,9 @@ from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QSpacerI
 from PyQt6.QtGui import QFont
 import qdarktheme
 
-import frames
+from frames import schedule_frame
+from frames import builder_frame
+from frames import course_frame
 
 
 # ----------------------------------------------------- classes --------------------------------------------------------
@@ -34,15 +36,15 @@ class Application(QWidget):
         self.layout.addWidget(self.title_label)
 
         # add frames to layout
-        self.schedule_frame = frames.ScheduleFrame(self)
+        self.schedule_frame = schedule_frame.ScheduleFrame(self)
         self.layout.addWidget(self.schedule_frame)
         self.layout.addItem(QSpacerItem(0, 20))
 
-        self.degreeworks_frame = frames.BuilderFrame(self)
+        self.degreeworks_frame = builder_frame.BuilderFrame(self)
         self.layout.addWidget(self.degreeworks_frame)
         self.layout.addItem(QSpacerItem(0, 20))
 
-        self.course_frame = frames.CourseFrame(self)
+        self.course_frame = course_frame.CourseFrame(self)
         self.layout.addWidget(self.course_frame)
         self.layout.addItem(QSpacerItem(0, 20))
 

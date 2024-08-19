@@ -1,0 +1,40 @@
+{
+  "CHME": [
+    "None"
+  ],
+  "CE": [
+    "None"
+  ],
+  "EE": [
+    "None"
+  ],
+  "ENGR": [
+    "Engineering Management",
+    "Manufacturing Systems",
+    "Mechatronics Systems",
+    "Robotic Systems",
+    "None"
+  ],
+  "IE": [
+    "None"
+  ],
+  "ME": [
+    "Alternative Energy",
+    "Automotive Engineering Design",
+    "Bioengineering Applications",
+    "Machine Design & Advanced Materials",
+    "None"
+  ],
+  "CS": [
+    "Artificial Intelligence",
+    "Computer Gaming",
+    "Cybersecurity",
+    "None"
+  ],
+  "CE-CS": [
+    "Artificial Intelligence",
+    "Computer Gaming",
+    "Cybersecurity",
+    "None"
+  ]
+}
